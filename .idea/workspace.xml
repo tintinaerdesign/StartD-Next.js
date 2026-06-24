@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a6402cc-adde-45bd-a0a8-8767daf1066a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0456981128092584" />
+      <entry key="MS500" value="2.68220674441977" />
+      <entry key="S2" value="7.0991457917509315" />
+      <entry key="S5" value="11.509264569022177" />
+      <entry key="S10" value="14.198052579113053" />
+      <entry key="S30" value="16.889899286681274" />
+      <entry key="S60" value="18.806772640787713" />
+      <entry key="M2" value="22.065198420415122" />
+      <entry key="M5" value="29.118913652100378" />
+      <entry key="M10" value="34.63920803032355" />
+      <entry key="M15" value="37.213423129983994" />
+      <entry key="M30" value="40.2952081697677" />
+      <entry key="H1" value="42.06148670540022" />
+      <entry key="H2" value="43.008082274854694" />
+      <entry key="H4" value="43.49822749814859" />
+      <entry key="D1" value="43.91555087122334" />
+      <entry key="W1" value="43.98791557694932" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="8.188793192346347E-283" />
+      <entry key="S2" value="3.008188009101034E-71" />
+      <entry key="S5" value="6.184747736411369E-29" />
+      <entry key="S10" value="7.864316713110802E-15" />
+      <entry key="S30" value="1.988628526761577E-5" />
+      <entry key="S60" value="0.0044594041381798705" />
+      <entry key="M2" value="0.06677877011580755" />
+      <entry key="M5" value="0.3387313293435757" />
+      <entry key="M10" value="0.5820062966528592" />
+      <entry key="M15" value="0.6970840121560915" />
+      <entry key="M30" value="0.8349155718730433" />
+      <entry key="H1" value="0.9137371459413498" />
+      <entry key="H2" value="0.9558959911733861" />
+      <entry key="H4" value="0.977699335774238" />
+      <entry key="D1" value="0.9962482083156717" />
+      <entry key="W1" value="0.9994631659601606" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.19186135910724314" />
+      <entry key="MS500" value="2.340392660823286" />
+      <entry key="S2" value="6.975706033292781" />
+      <entry key="S5" value="11.44582993197656" />
+      <entry key="S10" value="14.162150059827054" />
+      <entry key="S30" value="16.869475185686497" />
+      <entry key="S60" value="18.779371081040107" />
+      <entry key="M2" value="22.089371879604958" />
+      <entry key="M5" value="29.41664187599892" />
+      <entry key="M10" value="35.191281019495335" />
+      <entry key="M15" value="37.887602731431954" />
+      <entry key="M30" value="41.116899120448984" />
+      <entry key="H1" value="42.968101874577144" />
+      <entry key="H2" value="43.96028044988182" />
+      <entry key="H4" value="44.47404246675299" />
+      <entry key="D1" value="44.9114799834684" />
+      <entry key="W1" value="44.98733303299328" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Fal1jR4qzUConJwBhoFMD7Fm0t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/toeng/WebstormProjects/coinseek/src/main.ts",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\toeng\\WebstormProjects\\coinseek\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\toeng\\WebstormProjects\\coinseek\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a6402cc-adde-45bd-a0a8-8767daf1066a" name="Changes" comment="" />
+      <created>1782320849959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782320849959</updated>
+      <workItem from="1782320850855" duration="1652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
