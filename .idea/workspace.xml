@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6402cc-adde-45bd-a0a8-8767daf1066a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Calculator/MoreDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/MarketOverview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layout/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layout/MobileMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Hero/kid-future.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NavItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(Root)/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(Root)/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NavItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -21,61 +33,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000091833" />
-      <entry key="S5" value="1.0000576858784944" />
-      <entry key="S10" value="1.0138643437125798" />
-      <entry key="S30" value="1.964444738718643" />
-      <entry key="S60" value="4.54977288488992" />
-      <entry key="M2" value="12.083815529405392" />
-      <entry key="M5" value="59.77837465577585" />
-      <entry key="M10" value="132.9688983921757" />
-      <entry key="M15" value="178.39398466473472" />
-      <entry key="M30" value="242.5121317277534" />
-      <entry key="H1" value="284.14133441710726" />
-      <entry key="H2" value="307.9702610677953" />
-      <entry key="H4" value="323.91900744826677" />
-      <entry key="D1" value="487.7596352807157" />
-      <entry key="W1" value="637.0939492569223" />
+      <entry key="MS100" value="1.0000286719588993" />
+      <entry key="MS500" value="1.1234501076806716" />
+      <entry key="S2" value="1.5927517819894597" />
+      <entry key="S5" value="1.8112397491429308" />
+      <entry key="S10" value="1.9017389179325113" />
+      <entry key="S30" value="2.3718153910796724" />
+      <entry key="S60" value="3.788104099815021" />
+      <entry key="M2" value="6.025473348846889" />
+      <entry key="M5" value="15.411145009506114" />
+      <entry key="M10" value="36.73898264781625" />
+      <entry key="M15" value="53.84790222156944" />
+      <entry key="M30" value="83.52826488388583" />
+      <entry key="H1" value="106.89081075549457" />
+      <entry key="H2" value="122.36705039342864" />
+      <entry key="H4" value="141.49606879312324" />
+      <entry key="D1" value="439.4137802974793" />
+      <entry key="W1" value="788.3323690866108" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.163928441814682E-73" />
-      <entry key="S2" value="9.199999628161279E-19" />
-      <entry key="S5" value="6.102603080442208E-8" />
-      <entry key="S10" value="2.47034473091637E-4" />
-      <entry key="S30" value="0.06280298102058669" />
-      <entry key="S60" value="0.2583796630167123" />
-      <entry key="M2" value="0.6132999823119809" />
-      <entry key="M5" value="1.4854985693359122" />
-      <entry key="M10" value="2.3217796254766205" />
-      <entry key="M15" value="2.7532651004110997" />
-      <entry key="M30" value="3.3008355480211136" />
-      <entry key="H1" value="3.628842159547519" />
-      <entry key="H2" value="3.8097433314570806" />
-      <entry key="H4" value="4.0116244782819095" />
-      <entry key="D1" value="9.076464990804997" />
-      <entry key="W1" value="13.851585243883834" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="4.45798525922417E-167" />
+      <entry key="S10" value="6.67681457572983E-84" />
+      <entry key="S30" value="1.8858050226345364E-28" />
+      <entry key="S60" value="1.4249455798005734E-14" />
+      <entry key="M2" value="1.4010137056600445E-7" />
+      <entry key="M5" value="0.00256823401465894" />
+      <entry key="M10" value="0.0707519531882629" />
+      <entry key="M15" value="0.21489809982060426" />
+      <entry key="M30" value="0.6546251732910351" />
+      <entry key="H1" value="1.1440181694866496" />
+      <entry key="H2" value="1.5395460888505963" />
+      <entry key="H4" value="2.1034146584407374" />
+      <entry key="D1" value="8.776501284848464" />
+      <entry key="W1" value="17.476943450011383" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.001121775737301792" />
-      <entry key="MS500" value="0.25702845666401664" />
-      <entry key="S2" value="0.7120250978033316" />
-      <entry key="S5" value="0.8730112655538845" />
-      <entry key="S10" value="0.9467520821030467" />
-      <entry key="S30" value="1.9734555658341422" />
-      <entry key="S60" value="4.747798578054995" />
-      <entry key="M2" value="12.64479815011732" />
-      <entry key="M5" value="61.227823628850494" />
-      <entry key="M10" value="135.26594922758275" />
-      <entry key="M15" value="181.1284336423834" />
-      <entry key="M30" value="245.8020590735337" />
-      <entry key="H1" value="287.7642669288115" />
-      <entry key="H2" value="311.77692134382613" />
-      <entry key="H4" value="327.9289412965673" />
-      <entry key="D1" value="496.83492117724825" />
-      <entry key="W1" value="650.9452441516722" />
+      <entry key="MS100" value="0.38958480659185946" />
+      <entry key="MS500" value="0.9040578416092361" />
+      <entry key="S2" value="1.4788178923590918" />
+      <entry key="S5" value="1.7540337022780323" />
+      <entry key="S10" value="1.8707036171805709" />
+      <entry key="S30" value="2.3604175185573286" />
+      <entry key="S60" value="3.7815525652089534" />
+      <entry key="M2" value="6.02123663604815" />
+      <entry key="M5" value="15.407779486251272" />
+      <entry key="M10" value="36.80044639798124" />
+      <entry key="M15" value="54.05215322781079" />
+      <entry key="M30" value="84.17252478993676" />
+      <entry key="H1" value="108.02719940630828" />
+      <entry key="H2" value="123.90187589610808" />
+      <entry key="H4" value="143.59668692172812" />
+      <entry key="D1" value="448.1889917001059" />
+      <entry key="W1" value="805.8089397979784" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -113,6 +125,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\public\assets\Hero" />
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\components\layout" />
       <recent name="C:\Users\toeng\WebstormProjects\coinseek\app" />
       <recent name="C:\Users\toeng\WebstormProjects\coinseek\app\(Root)" />
       <recent name="C:\Users\toeng\WebstormProjects\coinseek" />
@@ -132,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782320849959</updated>
-      <workItem from="1782320850855" duration="10608000" />
+      <workItem from="1782320850855" duration="17435000" />
     </task>
     <servers />
   </component>

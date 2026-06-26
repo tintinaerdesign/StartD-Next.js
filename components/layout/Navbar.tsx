@@ -41,7 +41,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <motion.header
+        <motion.nav
             ref={dropdownRef}
             initial={{ opacity: 0, y: -60 }}
             animate={{ opacity: 1, y: 0 }}
@@ -60,16 +60,10 @@ export default function Navbar() {
         ${isScrolled ? "top-4 w-11/12 rounded-[28px]" : "top-0 w-full"}
       `}
         >
-            <div className="container mx-auto flex h-20 items-center justify-between px-6 md:px-8">
+            <div className="mx-auto flex h-20 items-center justify-between px-6 md:px-8">
                 {/* Logo */}
-                <Link href="/" className="flex items-center gap-3">
-                    <Image
-                        src="/icon.png"
-                        alt="Start D"
-                        width={36}
-                        height={36}
-                        className="h-9 w-auto"
-                    />
+                <Link href="/public" className="flex shrink-0 items-center gap-3">
+
 
                     <span className="bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-2xl font-bold text-transparent">
             Start D
@@ -79,7 +73,7 @@ export default function Navbar() {
                 {/* Desktop Menu */}
                 <div className="hidden items-center gap-8 text-[15px] md:flex">
                     <Link
-                        href="/"
+                        href="/public"
                         className="text-zinc-400 transition hover:text-white"
                     >
                         Home
@@ -131,13 +125,13 @@ export default function Navbar() {
             md:flex
           "
                 >
-                    Dashboard
+                    Secure Bitcoin
                 </Link>
 
                 {/* Mobile Button */}
                 <button
                     onClick={() => setIsOpen((prev) => !prev)}
-                    className="flex items-center justify-center text-white md:hidden"
+                    className="flex items-center cursor-pointer justify-center text-white md:hidden"
                 >
           <span className="material-symbols-outlined text-4xl">
             {isOpen ? "close" : "menu"}
@@ -163,7 +157,7 @@ export default function Navbar() {
                     >
                         <ul className="flex flex-col space-y-6 p-6">
                             <li>
-                                <Link href="/" onClick={() => setIsOpen(false)}>
+                                <Link href="/public" onClick={() => setIsOpen(false)}>
                                     Home
                                 </Link>
                             </li>
@@ -200,19 +194,19 @@ export default function Navbar() {
                     inline-flex
                     rounded-xl
                     bg-gradient-to-r
-                    from-[#ec2900]
-                    to-orange-400
+                    from-pink-500
+                    to-orange-500
                     px-5
-                    py-3
+                    py-3 text-white
                   "
                                 >
-                                    Dashboard
+                                    Secure Your Bitcoin
                                 </Link>
                             </li>
                         </ul>
                     </motion.div>
                 )}
             </AnimatePresence>
-        </motion.header>
+        </motion.nav>
     );
 }

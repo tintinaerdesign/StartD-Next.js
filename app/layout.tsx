@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
@@ -27,10 +30,27 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en" className="dark"
+      lang="en"page
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <head>
+      <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      />
+    </head>
+    <body className="min-h-screen flex flex-col">
+
+    <Navbar />
+
+    <main className="flex-1">
+      {children}
+    </main>
+
+    <Footer />
+
+    </body>
+
     </html>
   );
 }
