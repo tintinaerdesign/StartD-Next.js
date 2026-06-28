@@ -17,37 +17,50 @@ export default function Footer() {
 
                     <div className="max-w-lg">
                         {/* โลโก้แบรนด์ */}
-                        <div className="text-5xl font-extrabold tracking-tight bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent flex items-center gap-2">
-                            <PiggyBank className="text-pink-500" size={70} strokeWidth={1.5} />
-                            Start D
+                        <div className=" flex gap-4">
+                            <div
+                                className="flex
+    h-14
+    w-14
+    items-center
+    justify-center
+    rounded-2xl
+    bg-gradient-to-r
+    from-pink-500
+    to-orange-400
+  "
+                            >
+                                <PiggyBank
+                                    size={28}
+                                    color="white"
+                                    strokeWidth={2.2}
+                                />
+                            </div>
+                            <div>
+                                <h3 className="font-['Orbitron'] text-4xl font-semibold">Start D</h3>
+                                <p className="text-zinc-500 text-sm mt-1">
+                                    Learn Money • Save Better
+                                </p>
+
+                            </div>
+
                         </div>
 
-                        <p className="mt-5 text-2xl font-semibold text-white">
-                            Learn Money.
-                            <br />
-                            Own Your Future.
+                        <p className="mt-6 text-zinc-400 leading-relaxed max-w-md"
+                        >
+                            Learn how money works through interactive stories about inflation,
+                            scarcity, Bitcoin, and long-term wealth preservation.
                         </p>
 
-                        <p className="mt-6 leading-8 text-zinc-400">
-                            Helping people understand inflation,
-                            Bitcoin and long-term wealth
-                            through interactive experiences.
-                        </p>
-
-                        <div className="mt-10 flex gap-4">
-                            <Link
-                                href="/learn"
-                                className="group flex items-center gap-2 rounded-xl bg-gradient-to-r from-pink-500 to-orange-400 px-6 py-3 font-semibold text-white transition hover:scale-105"
-                            >
-                                Start Learning
-                            </Link>
-
-                            <Link
-                                href="/calculator"
-                                className="rounded-xl border border-white/10 px-6 py-3 text-zinc-300 transition hover:border-white hover:text-white"
-                            >
-                                Calculator
-                            </Link>
+                        {/*Tags*/}
+                        <div className="flex flex-wrap mt-4 gap-3">
+                            {["Inflation", "Scarcity", "Bitcoin", "self-custody"].map((item, index) => (
+                                <div key={item}
+                                    className="bg-white/5 border border-white/10
+                                     px-4 py-2 text-md rounded-2xl text-white">
+                                    {item}
+                                </div>
+                            ))}
                         </div>
                     </div>
 
@@ -55,23 +68,60 @@ export default function Footer() {
                     <div className="grid grid-cols-2 gap-14 lg:grid-cols-3">
                         <div>
                             <h3 className="mb-5 font-semibold text-white tracking-wide">
-                                Learn
+                                Tools
                             </h3>
-                            <div className="flex flex-col space-y-3 text-sm text-zinc-400">
-                                <Link href="#" className="hover:text-white transition-colors">Rise of Rome</Link>
-                                <Link href="#" className="hover:text-white transition-colors">Glass Beads</Link>
-                                <Link href="#" className="hover:text-white transition-colors">Bitcoin Standard</Link>
+                            <div>
+                                <div className="space-y-4 text-zinc-400">
+                                    <Link
+                                        href="#"
+                                        className="block hover:text-white transition">
+                                        The Rise of Rome
+                                    </Link>
+
+                                    <Link href="#" className="block hover:text-white transition">
+                                        The Fall of Glass Beads
+                                    </Link>
+
+                                    <Link href="#" className="block hover:text-white transition">
+                                        Gold Standard
+                                    </Link>
+
+                                    <Link
+                                        href="#"
+                                        className="block hover:text-white transition"
+                                    >
+                                        Bitcoin Standard
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-
                         <div>
                             <h3 className="mb-5 font-semibold text-white tracking-wide">
                                 Tools
                             </h3>
-                            <div className="flex flex-col space-y-3 text-sm text-zinc-400">
-                                <Link href="#" className="hover:text-white transition-colors">Inflation Calculator</Link>
-                                <Link href="#" className="hover:text-white transition-colors">Bitcoin Tracker</Link>
-                                <Link href="#" className="hover:text-white transition-colors">DCA Calculator</Link>
+                            <div>
+                                <div className="space-y-4 text-zinc-400">
+                                    <Link
+                                        href="#"
+                                        className="block hover:text-white transition">
+                                        Inflation Calculator
+                                    </Link>
+
+                                    <Link href="#" className="block hover:text-white transition">
+                                        Bitcoin DCA Calculator
+                                    </Link>
+
+                                    <Link href="#" className="block hover:text-white transition">
+                                        Bitcoin Tracker
+                                    </Link>
+
+                                    <Link
+                                        href="#"
+                                        className="block hover:text-white transition"
+                                    >
+                                        Wallet Comparison
+                                    </Link>
+                                </div>
                             </div>
                         </div>
 
@@ -79,11 +129,18 @@ export default function Footer() {
                             <h3 className="mb-5 font-semibold text-white tracking-wide">
                                 Resources
                             </h3>
-                            <div className="flex flex-col space-y-3 text-sm text-zinc-400">
-                                <Link href="#" className="hover:text-white transition-colors">Bitcoin Security</Link>
-                                <Link href="#" className="hover:text-white transition-colors">About</Link>
-                                <Link href="#" className="hover:text-white transition-colors">Contact</Link>
+                            <div>
+                                <div>
+                                    <div className="space-y-4 text-md text-zinc-400">
+                                        <Link href="#" className="block hover:text-white transition">Bitcoin Security</Link>
+                                        <Link href="#" className="block hover:text-white transition">Self-custody Guide</Link>
+                                        <Link href="#" className="block hover:text-white transition">About</Link>
+                                        <Link href="#" className="block hover:text-white transition">Contact</Link>
+                                    </div>
+                                </div>
+
                             </div>
+
                         </div>
                     </div>
 
@@ -110,8 +167,18 @@ export default function Footer() {
                         </a>
                     </div>
 
-                    <p className="text-sm text-zinc-500">
-                        Made with ❤️ in Thailand
+                    <p
+                        className="
+          text-zinc-500
+          text-sm
+          text-center
+          lg:text-right
+          max-w-md
+        "
+                    >
+                        Educational content only. Nothing on this website should be
+                        considered financial advice. Always do your own research before
+                        making financial decisions.
                     </p>
                 </div>
 

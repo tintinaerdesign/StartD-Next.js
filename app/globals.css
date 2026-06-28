@@ -131,11 +131,10 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-gray-900 text-foreground;
+  html, body {
+    background-color: #100f0f;
+    color: #ffffff;
+    overflow-x: hidden;
   }
 }
 
