@@ -1,148 +1,138 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+import Boycoin from "@/public/assets/images/Boycoin.png";
+import Gold from "@/public/assets/images/Gold.png";
+import Bitcoin from "@/public/assets/images/Bitcoin.png";
+import Security from "@/public/assets/images/Security.png";
+
+import {
+    ArrowRight,
+    ClockAlert,
+    OctagonIcon,
+    BitcoinIcon,
+    ShieldCheck,
+} from "lucide-react";
+
+export const Lessons = [
+    {
+        title: "The Problem",
+        description: "Why inflation is stealing your future.",
+        icon: ClockAlert,
+        image: Boycoin,
+        link: "/learn/the-problem",
+    },
+    {
+        title: "Sound Money",
+        description: "What is sound money and why it matters.",
+        icon: OctagonIcon,
+        image: Gold,
+        link: "/learn/sound-money",
+    },
+    {
+        title: "Bitcoin",
+        description: "The hardest money ever created.",
+        icon: BitcoinIcon,
+        image: Bitcoin,
+        link: "/learn/bitcoin",
+    },
+    {
+        title: "Self-Custody",
+        description: "Secure your Bitcoin the right way.",
+        icon: ShieldCheck,
+        image: Security,
+        link: "/learn/self-custody",
+    },
+] as const;
 
 export default function StorySection() {
     return (
-        <section className="relative overflow-hidden bg-black py-36">
-            {/* Glow */}
-            <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-orange-500/10 blur-[140px]" />
+        <section className="bg-black py-24 px-6 overflow-hidden">
+            <div className="max-w-7xl mx-auto w-full">
 
-            <div className="relative z-10 mx-auto max-w-6xl px-6">
+                <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-12 items-start w-full">
 
-                <motion.div
-                    initial={{ opacity: 0, y: 80 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: .7 }}
-                    className="mx-auto max-w-4xl text-center"
-                >
-          <span className="rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-sm text-orange-300">
-            A Different Way To Think
-          </span>
+                    {/* LEFT CONTENT */}
+                    <div className="w-full lg:sticky lg:top-10">
+                        <span className="text-pink-500 text-sm font-semibold tracking-widest uppercase">
+                            Learn & Explore
+                        </span>
 
-                    <h2 className="mt-8 text-5xl font-black leading-tight text-white lg:text-6xl">
-                        Money Isn't Just
-                        <span className="bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
-              {" "}
-                            Something You Spend
-            </span>
-                    </h2>
+                        <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mt-4">
+                            Knowledge Is
+                            <br />
+                            Your Best Defense.
+                        </h2>
 
-                    <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-zinc-400">
-                        Every dollar you save is stored time.
-                        The question isn't how much money you have today—
-                        it's whether your money will still hold its value tomorrow.
-                    </p>
-                </motion.div>
-
-                {/* Story Card */}
-
-                <motion.div
-                    initial={{ opacity: 0, y: 80 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: .2 }}
-                    className="mt-24 rounded-[40px] border border-white/10 bg-white/5 p-12 backdrop-blur-xl"
-                >
-
-                    <div className="grid gap-14 lg:grid-cols-2">
-
-                        {/* Left */}
-
-                        <div>
-
-              <span className="text-sm uppercase tracking-[6px] text-orange-400">
-                Imagine
-              </span>
-
-                            <h3 className="mt-6 text-4xl font-bold text-white">
-                                What If
-                                You Could Save
-                                Without Losing Value?
-                            </h3>
-
-                            <p className="mt-8 leading-8 text-zinc-400">
-                                Inflation quietly reduces the purchasing power of cash every year.
-
-                                While your bank balance may increase,
-                                what it can actually buy often decreases.
-
-                                Bitcoin introduces a different idea —
-                                a scarce digital asset designed for the long term.
-                            </p>
-
-                        </div>
-
-                        {/* Right */}
-
-                        <div className="flex flex-col justify-center gap-8">
-
-                            <div className="rounded-3xl border border-white/10 bg-black/40 p-6">
-
-                                <h4 className="text-lg font-semibold text-white">
-                                    Traditional Saving
-                                </h4>
-
-                                <p className="mt-3 text-zinc-400">
-                                    Money slowly loses purchasing power because new currency is continually created.
-                                </p>
-
-                            </div>
-
-                            <div className="rounded-3xl border border-orange-500/20 bg-orange-500/10 p-6">
-
-                                <h4 className="text-lg font-semibold text-white">
-                                    Bitcoin Saving
-                                </h4>
-
-                                <p className="mt-3 text-zinc-300">
-                                    A fixed supply encourages long-term thinking and preserving value over time.
-                                </p>
-
-                            </div>
-
-                        </div>
-
+                        <p className="text-zinc-400 mt-5 text-base md:text-lg leading-relaxed">
+                            Dive into the fundamentals of money, Bitcoin, and financial
+                            sovereignty.
+                        </p>
                     </div>
 
-                </motion.div>
+                    {/* CARDS GRID CONTAINER */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 w-full justify-items-center">
+                        {Lessons.map((item) => {
+                            const IconComponent = item.icon;
 
-                {/* Button */}
+                            return (
+                                <motion.div
+                                    key={item.title}
+                                    whileHover={{ y: -10 }}
+                                    transition={{ duration: 0.3 }}
+                                    className="group relative h-[430px] w-full max-w-[240px] rounded-[32px] overflow-hidden border border-zinc-900 bg-zinc-950 flex flex-col justify-end"
+                                >
+                                    {/* LINK LAYER (Z-20) */}
+                                    <Link href={item.link} className="absolute inset-0 z-20 block">
+                                        <span className="sr-only">Read more about {item.title}</span>
+                                    </Link>
 
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ delay: .4 }}
-                    viewport={{ once: true }}
-                    className="mt-16 flex justify-center"
-                >
-                    <Link
-                        href="/learn"
-                        className="
-              inline-flex
-              items-center
-              gap-3
-              rounded-2xl
-              bg-gradient-to-r
-              from-pink-500
-              to-orange-400
-              px-8
-              py-4
-              font-semibold
-              text-white
-              transition
-              hover:scale-105
-            "
-                    >
-                        Start Learning
+                                    {/* BACKGROUND IMAGE LAYER (Z-0) */}
+                                    <div className="absolute inset-0 z-0">
+                                        <Image
+                                            src={item.image}
+                                            alt={item.title}
+                                            fill
+                                            quality={95}
+                                            priority
+                                            sizes="(min-width: 1280px) 240px, (min-width: 640px) 50vw, 100vw"
+                                            className="object-cover opacity-90 transition duration-700 group-hover:scale-110"
+                                        />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent" />
+                                    </div>
 
-                        <ArrowRight size={20} />
-                    </Link>
-                </motion.div>
+                                    {/* CONTENT LAYER (Z-10) */}
+                                    <div className="absolute inset-0 z-10 p-6 flex flex-col justify-end pointer-events-none">
+                                        {/* ICON */}
+                                        {IconComponent && (
+                                            <IconComponent className="text-pink-500 mb-4 shrink-0" size={24} />
+                                        )}
 
+                                        {/* TITLE */}
+                                        <h3 className="text-2xl font-bold text-white tracking-wide">
+                                            {item.title}
+                                        </h3>
+
+                                        {/* DESCRIPTION */}
+                                        <p className="mt-2 text-sm text-zinc-400 leading-relaxed min-h-[40px]">
+                                            {item.description}
+                                        </p>
+
+                                        {/* READ MORE CTA */}
+                                        <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-pink-500 group-hover:text-pink-400 transition-colors">
+                                            <span>Read More</span>
+                                            <ArrowRight size={16} className="transform group-hover:translate-x-1 transition-transform" />
+                                        </div>
+                                    </div>
+                                </motion.div>
+                            );
+                        })}
+                    </div>
+
+                </div>
             </div>
         </section>
     );

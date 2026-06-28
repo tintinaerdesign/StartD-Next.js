@@ -54,7 +54,7 @@ export default function Hero() {
                             initial={{ opacity: 0, y: 80 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: .7 }}
-                            className="max-w-3xl text-5xl font-black leading-tight lg:text-7xl"
+                            className="max-w-3xl text-5xl leading-tight lg:text-7xl"
                         >
               <span className="bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
                 Inflation Quietly

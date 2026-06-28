@@ -1,21 +1,18 @@
-import Hero from "@/components/home/Hero";
-import MarketOverview from "@/components/home/MarketOverview";
-import FeatureSection from "@/components/home/FeatureSection";
+import React from "react";
 import StorySection from "@/components/home/StorySection";
-import CTASection from "@/components/home/CTASection";
+import Hero from "@/components/home/Hero";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 
 export default function HomePage() {
     return (
-        <>
-            <Hero />
-
-            <MarketOverview />
-
-            <FeatureSection />
-
-            <StorySection />
-
-            <CTASection />
-        </>
+        <div className="min-h-screen flex flex-col bg-black overflow-hidden">
+            <Navbar />
+            <main className="flex-grow">
+                <Hero />
+                <StorySection />
+            </main>
+            <Footer />
+        </div>
     );
 }
