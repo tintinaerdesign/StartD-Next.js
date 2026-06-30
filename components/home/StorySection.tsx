@@ -1,113 +1,114 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 import {
     ArrowRight,
-    ShieldIcon,
-    LucideBitcoin,
-    PiggyBank,
     ClockAlert,
+    PiggyBank,
+    LucideBitcoin,
+    Shield,
 } from "lucide-react";
 
 const Lessons = [
     {
-        title: "The Lesson",
-        description: "Why inflation is stealing your future.",
+        title: "Lessons",
         icon: ClockAlert,
+        description: "The inflation is stealing your future?",
+        link: "/learn/the-lessons",
         image: "/assets/images/Boycoin.png",
-        link: "/learn/Inflation",
     },
     {
         title: "Sound Money",
-        description: "What is sound money and why it matters.",
         icon: PiggyBank,
+        description: "why sound money matters?",
+        link: "/learn/the-lessons",
         image: "/assets/images/Gold.png",
-        link: "/learn/Inflation",
     },
     {
-        title: "Bitcoin",
-        description: "The hardest money ever created.",
+        title : "Bitcoin",
         icon: LucideBitcoin,
+        description: "Hardest money ever created !",
+        link: "/learn/the-lessons",
         image: "/assets/images/Bitcoin.png",
-        link: "/learn/Inflation",
     },
     {
         title: "Security",
-        description: "Secure your Bitcoin the right way.",
-        icon: ShieldIcon,
+        icon: Shield,
+        description: "Secure Bitcoin the right way",
+        link: "/learn/the-lessons",
         image: "/assets/images/Security.png",
-        link: "/bitcoin-security",
-    }] as const;
-
-export default function StorySection() {
+    }
+] as const;
+export default function StorySection(){
     return (
-        <section className="bg-black relative">
-            <div className="relative max-w-7xl mx-auto p-8">
-                <div className="grid lg:grid-cols-[400px_1fr] items-center gap-10">
-                    {/*Left Content*/}
-                    <div className="sticky max-w-2xl">
-                        <div className="text-3xl text-pink-500 font-['Orbitron']">Learn & Explore</div>
-                        <h3 className="text-5xl font-semibold mt-8">Knowledge Is
-                            <br />
-                            Your Best Defense.</h3>
-                        <p className="mt-2 text-2xl text-zinc-400">Dive into thefundamentals of money,Bitcoin and financial sovereignty.</p>
+        <section className="bg-black py-24 px-6">
+            <div className="max-w-7xl mx-auto">
+                <div className="grid grid-cols-1 lg:grid-cols-[350px_1fr] px-8">
+                    {/* Left Content */}
+                    <div className="flex flex-col justify-center">
+
+                        <div className="text-3xl text-pink-500 font-['Orbitron']">Learn& Explore
+
+                        </div>
+                        <h3 className="text-3xl font-semibold mt-6">Knowledge is <br />Is your best defence. </h3>
+                        <p className="mt-6 text-zinc-400">Dive into the dundamentals of money, bitcoin and money sovereignty.</p>
                     </div>
-
-                    {/*Card Content*/}
-                    <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+                    {/* card Image */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-14 mt-10">
                         {Lessons.map((item, index) => {
-                            const IconComponent=item.icon;
-                            return (
-                                // Each Box content
+                            const IconComponent = item.icon;
+                            return(
                                 <motion.div key={item.title}
-                                            initial={{ y: 10 }}
-                                            whileHover={{ opacity: 1, y: 0 }}
-                                            transition={{ delay: index * 0.1, duration: 0.3 }}
-                                            className="relative group border border-pink-300/30 bg-zinc-950 rounded-[36px]
-                                                        overflow-hidden h-[400px]">
-                                    {/*    Link Layer z-30  */}
-                                    <Link href={item.link} className="absolute inset-0 z-30 block">
+                                            animation ={{ opacity: 1}}
+                                            whileHover={{ y: -10, scale: 1.03}}
+                                            transition={{ duration: 0.4 }}
+                                            className="group relative h-[400px] border-zinc-950 border border-pink-300 rounded-[36px] overflow-hidden">
+                                    {/* Link Layer z-30*/}
+                                    <Link href={item.link} className="absolute inset-0 z-30" />
 
-                                    </Link>
-                                    {/*OverLay z-10*/}
-                                    <div className="absolute inset-0 bg-gradient-to-t
-                                    from-black via-black/90 to-transparent z-10"></div>
-                                    {/* Image BackGround Z-0  */}
+
+                                    {/*IMG z-0*/}
                                     <Image src={item.image}
-                                           alt={item.title}
-                                           fill
-                                           quality="100"
+                                            alt={item.title}
+                                            fill
                                            priority
-                                           className="object-cover opacity-70 group-hover:scale-110 duration-700 transition"/>
-                                    {/*    Icon z-10  */}
-                                    <div className="absolute inset-0 z-10 flex flex-col items-start p-6 gap-3 justify-end">
+                                           className="z-0 object-cover opacity-50 group-hover:scale-110 duration-700 transition"
+
+
+                                    />
+                                    {/* Overlay z-10   */}
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
+
+                                    {/*  Content z-20  */}
+                                    <div className="z-20 absolute inset-0 flex flex-col items-start justify-end p-5">
+                                        {/* Icon   */}
                                         {IconComponent && (
-                                            <IconComponent className="text-pink-500" size={24}></IconComponent>
+                                            <IconComponent className="text-pink-500 shrink-0" size={24}/>
                                         )}
-                                        <h3 className="text-3xl whitespace-nowrap">{item.title}</h3>
-                                        <p className="text-sm text-zinc-400">{item.description}</p>
-                                        {/*    CTA*/}
-                                        <div className="flex items-center gap-4">
-                                            <span className=" text-pink-300">Read more</span>
-                                            <ArrowRight size={14} className="transform group-hover:-translate-x-2 duration-600 transition-transform" />
+                                        <h3 className="text-xl">{item.title}</h3>
+                                        <p className="text-zinc-400 mt-3">{item.description}</p>
+                                        <div className="flex items-center text-pink-500 font-semibold mt-3 text-md group/readmore">
+                                            Read more
+                                            <span>
+                                                <ArrowRight className="ml-4 transition-transform group-hover:translate-x-2" size={13}/>
+                                            </span>
                                         </div>
                                     </div>
 
-
-
-
                                 </motion.div>
+
                             );
-
-
                         })}
+
                     </div>
                 </div>
 
+
             </div>
+
         </section>
 
     );

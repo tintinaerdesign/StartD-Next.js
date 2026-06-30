@@ -20,15 +20,15 @@ export default function Footer() {
                         <div className=" flex gap-4">
                             <div
                                 className="flex
-    h-14
-    w-14
-    items-center
-    justify-center
-    rounded-2xl
-    bg-gradient-to-r
-    from-pink-500
-    to-orange-400
-  "
+                                            h-14
+                                            w-14
+                                            items-center
+                                            justify-center
+                                            rounded-2xl
+                                            bg-gradient-to-r
+                                            from-pink-500
+                                            to-orange-400
+                                          "
                             >
                                 <PiggyBank
                                     size={28}
