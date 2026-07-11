@@ -3,7 +3,7 @@ export function getFearGreedState(value: number) {
     if (value <= 24) {
         return {
             label: "Extreme Fear",
-            image: "/assets/images/fear-greed/ExtremeFear.png",
+            image: "/assets/images/fear-greed/extremely-fear.png",
             color: "text-red-500",
             dotColor: "bg-red-500",
             description:
@@ -31,7 +31,7 @@ export function getFearGreedState(value: number) {
     if (value <= 55) {
         return {
             label: "Neutral",
-            image: "/assets/images/fear-greed/neutral.webp",
+            image: "/assets/images/fear-greed/neutral.png",
             color: "text-yellow-400",
             dotColor: "bg-yellow-400",
             description:
@@ -45,7 +45,7 @@ export function getFearGreedState(value: number) {
     if (value <= 74) {
         return {
             label: "Greed",
-            image: "/assets/images/fear-greed/greed.webp",
+            image: "/assets/images/fear-greed/greed.png",
             color: "text-lime-400",
             dotColor: "bg-lime-400",
             description:
