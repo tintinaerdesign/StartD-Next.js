@@ -33,7 +33,7 @@ export default function FearGreedCard({
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/30" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-black/30" />
 
             <div className="relative z-10 grid min-h-[600px] lg:grid-cols-2">
 

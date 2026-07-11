@@ -90,7 +90,7 @@ export default function Navbar() {
                         href="/markets"
                         className="text-zinc-400 transition hover:text-white"
                     >
-                        Markets
+                        Games
                     </Link>
 
                     <Link

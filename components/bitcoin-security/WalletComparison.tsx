@@ -23,7 +23,7 @@ export default function WalletComparison() {
             bestFor: "Long-term Bitcoin savers who want simplicity and security.",
 
             button: "Explore Trezor",
-            link: "/trezor-guide",
+            link: "https://trezor.io/",
         },
 
         {
@@ -44,7 +44,7 @@ export default function WalletComparison() {
             bestFor: "Users managing multiple crypto assets beyond Bitcoin.",
 
             button: "Explore Ledger",
-            link: "/ledger-guide",
+            link: "https://www.ledger.com/",
         },
     ];
 
