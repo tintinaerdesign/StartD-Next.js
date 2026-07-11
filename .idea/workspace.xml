@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a6402cc-adde-45bd-a0a8-8767daf1066a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.6009619673892186" />
+      <entry key="MS500" value="3.5939388038149036" />
+      <entry key="S2" value="7.519265460311462" />
+      <entry key="S5" value="10.737818985079661" />
+      <entry key="S10" value="12.577121079233406" />
+      <entry key="S30" value="15.967299887916084" />
+      <entry key="S60" value="25.975894238867895" />
+      <entry key="M2" value="57.28499641415943" />
+      <entry key="M5" value="149.03533234220737" />
+      <entry key="M10" value="247.41465936268096" />
+      <entry key="M15" value="305.40232435633266" />
+      <entry key="M30" value="398.77647593390174" />
+      <entry key="H1" value="493.870755989542" />
+      <entry key="H2" value="585.9320985851035" />
+      <entry key="H4" value="664.3681949864917" />
+      <entry key="D1" value="1244.0113877436897" />
+      <entry key="W1" value="3874.2354455583486" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.4175091456350573E-148" />
+      <entry key="S2" value="1.091142488760552E-37" />
+      <entry key="S5" value="1.641166286627549E-15" />
+      <entry key="S10" value="4.051148115918095E-8" />
+      <entry key="S30" value="0.003489920632779638" />
+      <entry key="S60" value="0.06608415373931105" />
+      <entry key="M2" value="0.33411575857899795" />
+      <entry key="M5" value="1.069267694594507" />
+      <entry key="M10" value="1.7374482276007006" />
+      <entry key="M15" value="2.1669059487682647" />
+      <entry key="M30" value="3.436960057801379" />
+      <entry key="H1" value="5.8190480285828565" />
+      <entry key="H2" value="8.616253058594385" />
+      <entry key="H4" value="11.071619170050258" />
+      <entry key="D1" value="31.782951145189312" />
+      <entry key="W1" value="145.23889241790144" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4760680236072934" />
+      <entry key="MS500" value="3.5176418705113504" />
+      <entry key="S2" value="7.467645589240833" />
+      <entry key="S5" value="10.708505835222205" />
+      <entry key="S10" value="12.560110711712687" />
+      <entry key="S30" value="15.959434935860584" />
+      <entry key="S60" value="26.02220166800826" />
+      <entry key="M2" value="57.59180601672491" />
+      <entry key="M5" value="150.07916239222956" />
+      <entry key="M10" value="249.1330462611456" />
+      <entry key="M15" value="307.55373877321364" />
+      <entry key="M30" value="402.20090188419766" />
+      <entry key="H1" value="499.677952405237" />
+      <entry key="H2" value="594.538706989762" />
+      <entry key="H4" value="675.4333015288115" />
+      <entry key="D1" value="1275.7913259185837" />
+      <entry key="W1" value="4019.470923949687" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Fal1jR4qzUConJwBhoFMD7Fm0t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.Next.js: debug client-side.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/toeng/WebstormProjects/coinseek/public/assets/images/fear-greed",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/toeng/WebstormProjects/coinseek/src/main.ts",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\toeng\\WebstormProjects\\coinseek\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2026.1.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\public\assets\images\fear-greed" />
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\public\assets\images\fearGreed" />
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\app\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\data" />
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\src" />
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek" />
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\scripts" />
+      <recent name="C:\Users\toeng\WebstormProjects\coinseek\components\home" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Next.js: debug client-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a6402cc-adde-45bd-a0a8-8767daf1066a" name="Changes" comment="" />
+      <created>1782320849959</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782320849959</updated>
+      <workItem from="1782320850855" duration="80052000" />
+      <workItem from="1783655100313" duration="1560000" />
+      <workItem from="1783656689060" duration="3705000" />
+      <workItem from="1783660474288" duration="19000" />
+      <workItem from="1783660565491" duration="13514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
