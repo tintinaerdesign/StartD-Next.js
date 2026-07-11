@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import { Readable } from "node:stream";
 import unzipper from "unzipper";
 import csv from "csv-parser";
 
@@ -22,11 +23,19 @@ async function run() {
 
     output.write("date,close\n");
 
-    const directory = await unzipper.Open.file(zipPath);
+    const zip = new AdmZip(zipPath);
 
-    const entry = directory.files.find(file =>
-        file.path.endsWith("BTCUSD_Daily_OHLC.csv")
-    );
+    const entry = zip
+        .getEntries()
+        .find(file =>
+            file.entryName.endsWith("BTCUSD_Daily_OHLC.csv")
+        );
+
+    if (!entry) {
+        throw new Error(
+            "BTCUSD_Daily_OHLC.csv not found inside zip."
+        );
+    }
 
     if (!entry) {
         throw new Error(
@@ -38,8 +47,9 @@ async function run() {
 
     await new Promise<void>((resolve, reject) => {
 
-        entry
-            .stream()
+        Readable.from(entry.getData())
+
+            .pipe(csv())
 
             .pipe(csv())
 
