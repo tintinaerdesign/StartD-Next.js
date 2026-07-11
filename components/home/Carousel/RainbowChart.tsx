@@ -11,7 +11,7 @@ type RainbowBand = {
     offset: number;
     color: string;
     overlay: string;
-    bgImage: string | null;
+    bgImage: string;
     bgSize: string | null;
     bgPosition: string;
 };
@@ -306,8 +306,8 @@ export default function RainbowChart() {
                                             className="absolute z-10 inset-0 opacity-20 pointer-events-none"
                                             style={{
                                                 backgroundImage: `url(${band.bgImage})`,
-                                                backgroundPosition: band.bgPosition,
-                                                backgroundSize: band.bgSize,
+                                                backgroundPosition: band.bgPosition ?? undefined,
+                                                backgroundSize: band.bgSize ?? undefined,
                                             }}
                                         />
                                     )}
